@@ -13,7 +13,7 @@ def get_words(text):
     return re.findall(r'\w+', text)
 
 
-def get_most_frequent_words(words, number):
+def get_most_frequent_words(words, number=10):
     return Counter(words).most_common(number)
 
 
