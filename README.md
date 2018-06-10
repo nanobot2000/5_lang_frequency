@@ -4,9 +4,9 @@ Script reads file with text and shows n (default 10) most frequent words in text
 
 # Quickstart
 
-The script requires the installed Python interpreter version 3.6.\n
-You have to start program, run the script with the `-f`, `--filepath` argument with path to text file and optional `-n`, `--number` argument (default 10).\n
-To call the help, run the script with the `-h` or `--help` option.\n
+The script requires the installed Python interpreter version 3.6.
+You have to start program, run the script with the `-f`, `--filepath` argument with path to text file and optional `-n`, `--number` argument (default 10).
+To call the help, run the script with the `-h` or `--help` option.
 
 ```bash
 $ python3 lang_frequency.py -h
