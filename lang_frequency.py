@@ -4,8 +4,8 @@ from collections import Counter
 
 
 def load_data(filepath):
-    with open(filepath, 'r', encoding='utf-8') as f:
-        text = f.read()
+    with open(filepath, 'r', encoding='utf-8') as file:
+        text = file.read()
     return text
 
 
@@ -19,10 +19,19 @@ def get_most_frequent_words(words, number=10):
 
 def create_argparser():
     parser = argparse.ArgumentParser()
-    parser.add_argument('-f', '--filepath',
-                        help='full path to text file', required=True)
-    parser.add_argument('-n', '--number', help='number of words',
-                        default=10, type=int)
+    parser.add_argument(
+        '-f',
+        '--filepath',
+        help='full path to text file',
+        required=True,
+    )
+    parser.add_argument(
+        '-n',
+        '--number',
+        help='number of words',
+        default=10,
+        type=int,
+    )
     args = parser.parse_args()
     return args
 
