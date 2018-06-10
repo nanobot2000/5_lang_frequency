@@ -5,7 +5,7 @@ Script reads file with text and shows n (default 10) most frequent words in text
 # Quickstart
 
 The script requires the installed Python interpreter version 3.6.
-You have to start program, run the script with the `-f`, `--filepath` argument with path to text file and optional `-n`, `--number` argument (default 10).
+You have to run the script with the `-f`, `--filepath` argument with path to text file and optional `-n`, `--number` argument (default 10) for number of most frequent words in text.
 To call the help, run the script with the `-h` or `--help` option.
 
 ```bash
